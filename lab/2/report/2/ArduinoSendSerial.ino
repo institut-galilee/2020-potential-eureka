@@ -5,7 +5,7 @@ void setup() {
 
 
 void loop() {
-    Serial.println("THIS IS A MESSAGES FROM ARDUINO NANO");
+    Serial.println("THIS IS A MESSAGES FROM ARDUINO UNO");
     
   delay(1000);//wait 1sec 
 }
