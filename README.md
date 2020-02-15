@@ -1,8 +1,6 @@
 # project-template
 This is the official template for student's projects
 
-> Traffic Lights project with Arduino
-
 Idée de projet du groupe Eureka :
 
 Nous allons créer un carrefour de feux tricolores connecté. Ce que nous souhaiterions faire :
