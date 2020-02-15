@@ -1,4 +1,10 @@
 # RAPPORT TP1
+- Simple resistance
+
+![sketch resistance simple](https://github.com/institut-galilee/2020-potential-eureka/blob/master/lab/1/report/simpleResistance.png)
+
+
+- Resistance variable
 
 ![sketch resistance variable](https://github.com/institut-galilee/2020-potential-eureka/blob/master/lab/1/report/resistanceVariable.png)
 
