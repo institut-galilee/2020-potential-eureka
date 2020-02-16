@@ -35,4 +35,15 @@ void loop()
 
 - description
 
+Le sketch qui a été choisi est la simulation d'un feu tricolore en lien avec notre projet.
+Pour cela, nous avons utilisé:
+- microcontrolleur
+- 3 LEDs (vert, jaune, rouge)
+- 3 résistances
+- 4 câbles
+- un câble USB
+- une breadboard
+
+Le programme permet d'allumer d'abord la LED verte pendant 5000ms puis l'éteint, allume la LED jaune (représente le feu orange ici) pendant 1500ms, s'éteint, la LED rouge s'allume pendant 5000ms, s'éteint et ainsi de suite.
+La durée entre l'extinction d'une LED et l'allumage de la prochaine est de 100ms.
 
