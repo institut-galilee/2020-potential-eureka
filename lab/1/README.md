@@ -2,10 +2,10 @@
 Dans ce TP on devait apprendre a utilisé une carte arduino et des leds
 
 ## Report
-  - [Report 1](report/1) 
-  - [Report 2](report/2)
+  - [Report 1](report/) 
+
   
 ## Exercises
-  - [Exercise 1](exercise/1)
-  - [Exercise 2](exercise/2)
+  - [Exercise 1](excercise/1)
+  - [Exercise 2](excercise/2)
 
