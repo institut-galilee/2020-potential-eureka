@@ -7,5 +7,5 @@ Dans ce TP on devait apprendre a utilisé une carte arduino et des leds
   
 ## Exercises
   - [Exercise 1](excercise/1)
-  - [Exercise 2](excercise/3)
+  - [Exercise 3](excercise/3)
 
