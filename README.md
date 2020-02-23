@@ -8,8 +8,8 @@ Nous allons créer un carrefour de feux tricolores connecté. Ce que nous souhai
 - si un axe est saturé, on va passer le feu au vert pour le désengorger
 - si on voit que sur un axe il n'y a aucune voiture qui passe ( grâce aux capteurs) alors qu'il est au vert, on le passe au rouge pour permettre aux autres voitures de circuler
 - s'il y a des piétons qui désirent traverserver plus rapidement, si possible, ils auront un bouton d'appel permettant de passer leur feu au vert et au rouge celui des voitures
-- la nuit, on pourra mettre les feux seront orange et clignoteront
-- on peut aussi afficher le temps restant avec le passage au feu vert pour voitures et/ou piétons
+- la nuit,les feux seront orange et clignoteront
+- on peut aussi afficher le temps restant avant le passage au feu vert pour voitures et/ou piétons
 - afficher la vitesse de la voiture en circulation et la flasher si il y a un excès trop important
 - si la voiture qui arrive est au dessus de la limitation, faire passer le feu au rouge
 
