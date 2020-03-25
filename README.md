@@ -23,9 +23,7 @@ https://auto.bfmtv.com/actualite/deux-commune-bretonnes-installent-des-feux-qui-
 https://detours.canal.fr/dembouteillages-grace-a-feux-intelligents-sadaptent-trafic/
 
 - feux de signalisation adapté au trafic routier: ex de Toronto (Canada), sur 60 feux d'intersection du centre-ville ont été installé ces feux, ce qui a permis de réduire de 40% les embouteillages et de diminuer le temps de trajet de 26%. Par croisement il faut compter entre 20 000 et 40 000 dollars mais les congestions du traffic routier sont estimés à 10 milliard de dollars de perte de productivité par an à Toronto.
-Dans les prochaines années ces intersections "intelligentes" pourront aussi se connecter avec les radars et lidars des voitures autonomes
+Dans les prochaines années ces intersections "intelligentes" pourront aussi se connecter avec les radars et lidars des voitures autonomes.
 http://www.slate.fr/life/79957/feux-signalisation-intelligents-trafic
 https://atelier.bnpparibas/smart-city/article/intersections-connectees-cle-mobilite-devienne-intelligente
-
-- dans les prochaines années ces intersections "intelligentes" pourront aussi se connecter avec les radars et lidars des voitures autonomes
 
