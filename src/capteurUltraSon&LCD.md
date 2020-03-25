@@ -47,7 +47,7 @@ void loop() {
   tempsAvant = tempsApres;
   tempsApres = millis();
   
-  // converttion du temps en distance
+  // conversion du temps en distance
   cmAvant = cm;
   cm = microsecondsToCentimeters(duration);
 	
