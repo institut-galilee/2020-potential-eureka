@@ -66,7 +66,7 @@ Description:
 Lorsqu'on appuye sur le bouton 2 de la télécommande, la led s'allume. Le bouton 1 sert à l'éteindre.
 
 - remote ir and led sketch
-![remote ir and led](https://github.com/institut-galilee/2020-potential-eureka/blob/master/projet/séance18-03/remote_ir_and_led.png)
+![remote ir and led](https://github.com/institut-galilee/2020-potential-eureka/blob/master/projet/s%C3%A9ance18-03/remote_ir_and_led.jpg)
 
 
 On peut voir que ça a été reproduit mais on s'est rendu compte que la télécommande ne fonctionnait pas. On a donc dû en commander une autre. C'est pour cela qu'on a décider de commander un nouveau kit.
