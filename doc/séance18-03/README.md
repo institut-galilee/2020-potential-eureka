@@ -5,7 +5,7 @@ Comme il nous manque du matériel notamment les capteurs qui sont essentiels à 
 Comme le kit est chez Faïza, elle a essayé de voir si la télecommande fournie dans notre kit n'avez pas de problème. Pour cela elle a utilisé le sketch qui a été fait Emiliano
 
 - schematic of the remote ir and led sketch
-![shematic remote ir and led](https://github.com/institut-galilee/2020-potential-eureka/blob/master/projet/séance18-03/schematic_remote_ir_et_led.png)
+![shematic remote ir and led](https://github.com/institut-galilee/2020-potential-eureka/blob/master/doc/s%C3%A9ance18-03/schematic_remote_ir_et_led.png)
 
 ```C
 #include <IRremote.h> //https://forum.arduino.cc/index.php?topic=133553.0
@@ -66,7 +66,7 @@ Description:
 Lorsqu'on appuye sur le bouton 2 de la télécommande, la led s'allume. Le bouton 1 sert à l'éteindre.
 
 - remote ir and led sketch
-![remote ir and led](https://github.com/institut-galilee/2020-potential-eureka/blob/master/projet/s%C3%A9ance18-03/remote_ir_and_led.jpg)
+![remote ir and led](https://github.com/institut-galilee/2020-potential-eureka/blob/master/doc/s%C3%A9ance18-03/remote_ir_and_led.jpg)
 
 
 On peut voir que ça a été reproduit mais on s'est rendu compte que la télécommande ne fonctionnait pas. On a donc dû en commander une autre. C'est pour cela qu'on a décider de commander un nouveau kit.
