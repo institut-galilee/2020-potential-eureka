@@ -69,7 +69,7 @@ Malheuresement, nous n'avons pas pu le faire ensemble en raison du confinement.
 Pour connaitre l'avancé du projet, nous avons travaillé à l'aide de Discord. C'est Emiliano qui s'est occupé de la fabrication du projet. Faïza s'est chargée de la partie rapport et des diagrammes.
 
 
-<h3>Les composants:</h3> 
+<h3>Les composants</h3> 
 
 - arduino UNO
 - câbles
@@ -82,7 +82,7 @@ Pour connaitre l'avancé du projet, nous avons travaillé à l'aide de Discord. 
 - récepteur IR pour la télécommande
 - buzzer passif
 
-<h3>Pour la maquette:</h3>
+<h3>Pour la maquette</h3>
 
 - grande planche en bois
 - petites planches de cagettes en bois pour les feux
