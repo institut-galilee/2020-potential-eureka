@@ -1,21 +1,22 @@
-# Projet feu tricolore
-This is the official template for student's projects
+#Projet feu tricolore
 
-Idée de projet du groupe Eureka :
+#Description du projet:
 
-Nous allons créer un carrefour de feux tricolores connecté. Ce que nous souhaiterions faire :
-- lorsque le trafic de voitures est normal, les feux changent de couleur au bout d’un certain temps de façon équitable pour chaque axe du carrefour
-- si un axe est saturé, on va passer le feu au vert pour le désengorger
-- si on voit que sur un axe il n'y a aucune voiture qui passe ( grâce aux capteurs) alors qu'il est au vert, on le passe au rouge pour permettre aux autres voitures de circuler
-- s'il y a des piétons qui désirent traverserver plus rapidement, si possible, ils auront un bouton d'appel permettant de passer leur feu au vert et au rouge celui des voitures
-- la nuit,les feux seront orange et clignoteront
-- on peut aussi afficher le temps restant avant le passage au feu vert pour voitures et/ou piétons
-- afficher la vitesse de la voiture en circulation et la flasher si il y a un excès trop important
-- si la voiture qui arrive est au dessus de la limitation, faire passer le feu au rouge
+Nous avons choisi de réaliser un carrefour de feu tricolore connecté.
+Dans un premier temps, la signalisation respecte les paramètres d'un feu tricolore classique. Cette signalisation peut être modifiée en fonction des points suivants:
 
+- un capteur de luminosité permet de savoir à quel moment de la journée on se trouve (jour ou nuit). Si il faut jour, alors la signalisation reste "classique", sinon les feux passe tous en orange et clignotent.
 
+- Un capteur infrarouge permet de savoir si un véhicule passe alors que sur sa voie le feu est au rouge. Il permet de faire passer les autres au rouge pour éviter le risque d'accident.
 
-"state-of-the-art":
+- lors du passage d'un véhicule, un capteur ultrason permet de connaitre sa vitesse. De plus, la vitesse est affichée sur un écran LCD.
+Si le feu est au vert et que le véhicule respecte la limitation de vitesse alors la signalisation reste inchangée. Dans le cas où le véhicule dépasse cette limite, le feu passe au orange puis au rouge pour le faire ralentir. Il est possible de faire cela sans danger puisque la distance entre le capteur et le feu est grande, il faut laisser le temps au conducteur de repérer le feu et donc de ralentir.
+
+- un bouton est à disposition des piétions leur permettant de demander le passage au vert de leur feu et de mettre au rouge les feux qui sont sur leur axe
+
+- un dispositif est aussi disponible pour les non-voyant. En effet, à l'aide d'une télécommande, ils peuvent demander le passage au vert pour qu'il puisse traverser. Ils ont la réponse grâce au son émit par un buzzer. Il y a des sons distincts pour différencier le feu rouge et vert.
+
+#Etat de l'art
 - idée de passer le feu au rouge lorsqu'il y a une voiture qui roule au delà de la limite et de le passer au vert si le conducteur respecte la vitesse: 36 000 euros l'unité (en France dans le Morbihan)
 https://auto.bfmtv.com/actualite/deux-commune-bretonnes-installent-des-feux-qui-recompensent-les-conducteurs-disciplines-1531080.html
 
