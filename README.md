@@ -1,6 +1,6 @@
 # Projet feu tricolore
 
-<h2>Description du projet:</h2>
+<h2>Description du projet</h2>
 
 Nous avons choisi de réaliser un carrefour de feu tricolore connecté.
 Dans un premier temps, la signalisation respecte les paramètres d'un feu tricolore classique. Cette signalisation peut être modifiée en fonction des points suivants:
@@ -50,11 +50,48 @@ Arrêts Réduire de 30 à 40 % le nombre d'arrêts, ce qui diminue l'usure de la
 
 https://www.rapidflowtech.com/surtrac
 
-Idée de départ :
+<h2>Idée de départ</h2> 
 
-L'idée que nous avions au début à plutôt été respéctée. Seul quelques points non pas pu être réalisés:
+L'idée que nous avions au début a plutôt été respéctée. Seuls quelques points non pas pu être réalisés:
 - si un axe est saturé, le faire passer au vert pour le désengorger
 - si on voit que sur un axe il n'y a aucune voiture qui passe ( grâce aux capteurs) alors qu'il est au vert, le faire passer au rouge pour permettre aux autres voitures de circuler
 - afficher le temps restant avant le passage au feu vert pour voitures et/ou piétons
 
-les  processus de conception et de fabrication, les composants et logiciels utilisés
+<h2>Les  processus de conception et de fabrication</h2>
+
+Au départ, nous avons d'abord posé les points essentiels du projet que nous souhaitions réaliser. Au fur et à mesure, nous avions une idée de plus en plus précise de ce que nous voulions faire.
+Nous avons donc séparé le travail en deux:
+Un de nous devait s'occuper de la partie diagrammes, rapport, chercher ce qu'il se faisait déjà et un autre devait commencer à réaliser des simulations à l'aide de Tinkercad.
+Lors des séances de TD, nous mettions en commun ce qui a été fait, donnions notre avis s'il y avait des choses à améliorer et tester à l'aide du kit les modélisations lorsque c'était possible puisqu'il nous manquait des capteurs essentiels à ce projet.
+
+Lorsque nous avons voulu mettre en place la fabrication du projet, nous avons listé tous les composants et matériels qu'il nous manquait.
+Malheuresement, nous n'avons pas pu le faire ensemble en raison du confinement.
+Pour connaitre l'avancé du projet, nous avons travaillé à l'aide de Discord. C'est Emiliano qui s'est occupé de la fabrication du projet. Faïza s'est chargée de la partie rapport et des diagrammes.
+
+
+<h3>Les composants:</h3> 
+
+- arduino UNO
+- câbles
+- breadboards
+- LEDs de couleurs vert, jaune et rouge pour les feux tricolores et bleu et blanc pour les feux pour piétons
+- capteurs (infrarouge, ultrason)
+- écran LCD
+- bouton
+- télécommandeIR
+- récepteur IR pour la télécommande
+- buzzer passif
+
+<h3>Pour la maquette:</h3>
+
+- grande planche en bois
+- petites planches de cagettes en bois pour les feux
+- perceuse et scie sauteuse pour faire les troues
+
+
+<h3>Logiciels utilisés</h3>
+
+- Arduino IDE: utilisé pour exécuté 
+- Tinkercad: utilisé pour la simulation
+
+
