@@ -1,6 +1,6 @@
 # Projet feu tricolore
 
-<h1>Description du projet:</h1>
+<h2>Description du projet:</h2>
 
 Nous avons choisi de réaliser un carrefour de feu tricolore connecté.
 Dans un premier temps, la signalisation respecte les paramètres d'un feu tricolore classique. Cette signalisation peut être modifiée en fonction des points suivants:
