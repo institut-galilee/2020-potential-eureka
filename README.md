@@ -1,6 +1,6 @@
-#Projet feu tricolore
+# Projet feu tricolore
 
-#Description du projet:
+# Description du projet:
 
 Nous avons choisi de réaliser un carrefour de feu tricolore connecté.
 Dans un premier temps, la signalisation respecte les paramètres d'un feu tricolore classique. Cette signalisation peut être modifiée en fonction des points suivants:
@@ -16,7 +16,7 @@ Si le feu est au vert et que le véhicule respecte la limitation de vitesse alor
 
 - un dispositif est aussi disponible pour les non-voyant. En effet, à l'aide d'une télécommande, ils peuvent demander le passage au vert pour qu'il puisse traverser. Ils ont la réponse grâce au son émit par un buzzer. Il y a des sons distincts pour différencier le feu rouge et vert.
 
-#Etat de l'art
+# Etat de l'art
 - idée de passer le feu au rouge lorsqu'il y a une voiture qui roule au delà de la limite et de le passer au vert si le conducteur respecte la vitesse: 36 000 euros l'unité (en France dans le Morbihan)
 https://auto.bfmtv.com/actualite/deux-commune-bretonnes-installent-des-feux-qui-recompensent-les-conducteurs-disciplines-1531080.html
 
