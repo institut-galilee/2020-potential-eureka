@@ -40,7 +40,7 @@ En 2015, la société Rapid Flow Technologies s'est séparée de Carnegie Mellon
 
 https://time.com/5502192/smart-traffic-lights-ai/
 
-Durée du voyage Amener les gens à destination 25 % plus vite en éliminant les arrêts, en réduisant le temps d'attente et en augmentant la vitesse de déplacement.
+-Durée du voyage Amener les gens à destination 25 % plus vite en éliminant les arrêts, en réduisant le temps d'attente et en augmentant la vitesse de déplacement.
 
 Attente Passez plus de 40 % moins de temps à attendre aux carrefours.
 
@@ -50,15 +50,11 @@ Arrêts Réduire de 30 à 40 % le nombre d'arrêts, ce qui diminue l'usure de la
 
 https://www.rapidflowtech.com/surtrac
 
+Idée de départ :
 
-Idée de projet du groupe Eureka :
+L'idée que nous avions au début à plutôt été respéctée. Seul quelques points non pas pu être réalisés:
+- si un axe est saturé, le faire passer au vert pour le désengorger
+- si on voit que sur un axe il n'y a aucune voiture qui passe ( grâce aux capteurs) alors qu'il est au vert, le faire passer au rouge pour permettre aux autres voitures de circuler
+- afficher le temps restant avant le passage au feu vert pour voitures et/ou piétons
 
-Nous allons créer un carrefour de feux tricolores connecté. Ce que nous souhaiterions faire :
-- lorsque le trafic de voitures est normal, les feux changent de couleur au bout d’un certain temps de façon équitable pour chaque axe du carrefour
-- si un axe est saturé, on va passer le feu au vert pour le désengorger
-- si on voit que sur un axe il n'y a aucune voiture qui passe ( grâce aux capteurs) alors qu'il est au vert, on le passe au rouge pour permettre aux autres voitures de circuler
-- s'il y a des piétons qui désirent traverserver plus rapidement, si possible, ils auront un bouton d'appel permettant de passer leur feu au vert et au rouge celui des voitures
-- la nuit,les feux seront orange et clignoteront
-- on peut aussi afficher le temps restant avant le passage au feu vert pour voitures et/ou piétons
-- afficher la vitesse de la voiture en circulation et la flasher si il y a un excès trop important
-- si la voiture qui arrive est au dessus de la limitation, faire passer le feu au rouge
+les  processus de conception et de fabrication, les composants et logiciels utilisés
