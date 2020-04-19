@@ -1,7 +1,7 @@
 # branchement et code tinkercad 
 
 
-![schema tinkercad remote IR]( https://github.com/institut-galilee/2020-potential-eureka/blob/master/src/img/TrafficLight.png)
+![schema tinkercad remote IR]( https://github.com/institut-galilee/2020-potential-eureka/blob/master/src/img/TrafficLight2.png)
 
 
 ```C
