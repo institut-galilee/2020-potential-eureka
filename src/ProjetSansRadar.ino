@@ -9,7 +9,7 @@
 #define Button_1 0xFFA25D
 #define Button_2 0xFF629D
 #define Button_3 0xFFE21D
-int receiver = 24; //initialize pin 13 as recevier pin.
+int receiver = 24; //initialize pin 24 as recevier pin.
 IRrecv irrecv(receiver); //create a new instance of receiver
 decode_results results;
 int buzzer = 22;
@@ -41,6 +41,9 @@ const int sensorLDR = A1; // select the input pin for LDR
 
 const int led_rouge_pieton_1 = 10;
 const int led_verte_pieton_1 = 11;
+
+const int led_rouge_pieton_2 = 12;
+const int led_verte_pieton_2 = 13;
 
 long interval = 8000;
 long interval2 = 1500;
@@ -80,6 +83,9 @@ void setup()
 
   pinMode(led_rouge_pieton_1, OUTPUT);
   pinMode(led_verte_pieton_1, OUTPUT);
+  pinMode(led_rouge_pieton_2, OUTPUT);
+  pinMode(led_verte_pieton_2, OUTPUT);
+
 
   pinMode(sensor, INPUT);
   pinMode(ledSensor, OUTPUT);
@@ -101,6 +107,10 @@ void setup()
 
   digitalWrite(led_rouge_pieton_1, LOW);
   digitalWrite(led_verte_pieton_1, HIGH);
+  
+  digitalWrite(led_rouge_pieton_2, HIGH);
+  digitalWrite(led_verte_pieton_2, LOW);
+
 
   //remote recepteur
   irrecv.enableIRIn(); //start the receiver
@@ -152,6 +162,8 @@ void loop()
           //Feux2 = Feux2Vert ;
           digitalWrite(led_rouge_pieton_1, LOW);
           digitalWrite(led_verte_pieton_1, HIGH);
+          digitalWrite(led_rouge_pieton_2, HIGH);
+          digitalWrite(led_verte_pieton_2, LOW);
           //etatPieton = 1;
 
         }
@@ -169,6 +181,8 @@ void loop()
         Feux2 = Feux2Vert;
         digitalWrite(led_rouge_pieton_1, HIGH);
         digitalWrite(led_verte_pieton_1, LOW);
+        digitalWrite(led_rouge_pieton_2, LOW);
+        digitalWrite(led_verte_pieton_2, HIGH);
 
 
       }
@@ -189,6 +203,8 @@ void loop()
   if (modeNuit == 1) {
     digitalWrite(led_rouge_pieton_1, HIGH);
     digitalWrite(led_verte_pieton_1, HIGH);
+    digitalWrite(led_rouge_pieton_2, HIGH);
+    digitalWrite(led_verte_pieton_2, HIGH);
 
     digitalWrite(led_rouge_feux_1, HIGH);
     digitalWrite(led_jaune_feux_1, LOW);
