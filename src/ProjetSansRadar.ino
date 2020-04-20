@@ -107,7 +107,7 @@ void setup()
 
   digitalWrite(led_rouge_pieton_1, LOW);
   digitalWrite(led_verte_pieton_1, HIGH);
-  
+
   digitalWrite(led_rouge_pieton_2, HIGH);
   digitalWrite(led_verte_pieton_2, LOW);
 
@@ -141,7 +141,8 @@ void loop()
           previousMillis = millis();
           Feux1 = Feux1Orange;
           //etatPieton = 1;
-
+          digitalWrite(led_rouge_pieton_2, LOW);
+          digitalWrite(led_verte_pieton_2, HIGH);
         }
       }
     }
@@ -162,8 +163,8 @@ void loop()
           //Feux2 = Feux2Vert ;
           digitalWrite(led_rouge_pieton_1, LOW);
           digitalWrite(led_verte_pieton_1, HIGH);
-          digitalWrite(led_rouge_pieton_2, HIGH);
-          digitalWrite(led_verte_pieton_2, LOW);
+
+
           //etatPieton = 1;
 
         }
@@ -181,8 +182,8 @@ void loop()
         Feux2 = Feux2Vert;
         digitalWrite(led_rouge_pieton_1, HIGH);
         digitalWrite(led_verte_pieton_1, LOW);
-        digitalWrite(led_rouge_pieton_2, LOW);
-        digitalWrite(led_verte_pieton_2, HIGH);
+
+
 
 
       }
@@ -197,6 +198,9 @@ void loop()
         previousMillis = millis();
         Feux2 = Feux2Rouge;
         Feux1 = Feux1Vert;
+
+        digitalWrite(led_rouge_pieton_2, HIGH);
+        digitalWrite(led_verte_pieton_2, LOW);
       }
     }
   }
