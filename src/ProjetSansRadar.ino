@@ -261,9 +261,11 @@ void loop()
 
   val = digitalRead(sensor);   // read sensor value
   if (val == HIGH) {           // check if the sensor is HIGH
-    digitalWrite(ledSensor, LOW);   // turn LED ON
-    delay(500);                // delay 100 milliseconds
-    digitalWrite(ledSensor, HIGH);
+    if (Feux1 == Feux1Rouge) {
+      digitalWrite(ledSensor, LOW);   // turn LED ON
+      delay(500);                // delay 100 milliseconds
+      digitalWrite(ledSensor, HIGH);
+    }
   }
 }
 
