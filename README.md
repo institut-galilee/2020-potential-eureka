@@ -89,9 +89,9 @@ Pour connaitre l'avancé du projet, nous avons travaillé à l'aide de Discord. 
 - perceuse et scie sauteuse pour faire les troues
 
 
-<h3>Logiciels utilisés</h3>
+Logiciels utilisés
 
-- Arduino IDE: utilisé pour exécuté 
+- Arduino IDE: utilisé pour utiliser l'arduino UNO
 - Tinkercad: utilisé pour la simulation
 
 
