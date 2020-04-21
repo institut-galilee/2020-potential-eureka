@@ -68,11 +68,11 @@ Lorsque nous avons voulu mettre en place la fabrication du projet, nous avons li
 Malheuresement, nous n'avons pas pu le faire ensemble en raison du confinement.
 Pour connaitre l'avancé du projet, nous avons travaillé à l'aide de Discord. C'est Emiliano qui s'est occupé de la fabrication du projet. Faïza s'est chargée de la partie rapport et des diagrammes.
 
-<h3>Diagramme d'utilisation</h3>
+Diagramme d'utilisation
 ![Diagramme d'utilisation](https://github.com/institut-galilee/2020-potential-eureka/blob/master/doc/Diagrammes/diagramme_utilisation.png)
 
 
-<h3>Diagramme de Gantt</h3>
+Diagramme de Gantt
 ![Diagramme de Gantt](https://github.com/institut-galilee/2020-potential-eureka/blob/master/doc/Diagrammes/diagramme_gantt.png)
 
 
@@ -101,6 +101,6 @@ Pour connaitre l'avancé du projet, nous avons travaillé à l'aide de Discord. 
 - Arduino IDE: utilisé pour utiliser l'arduino UNO
 - Tinkercad: utilisé pour la simulation
 
-<h3>Maquette</h3>
+Maquette
 ![maquette](https://github.com/institut-galilee/2020-potential-eureka/blob/master/doc/20200420172119.JPG)
 ![maquette](https://github.com/institut-galilee/2020-potential-eureka/blob/master/doc/20200420172107.JPG)
