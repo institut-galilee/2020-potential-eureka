@@ -1,20 +1,20 @@
-# Projet feu tricolore
+# Projet carrefour de feux tricolores
 
 <h2>Description du projet</h2>
 
-Nous avons choisi de réaliser un carrefour de feu tricolore connecté.
+Nous avons choisi de réaliser un carrefour de feux tricolores connecté.
 Dans un premier temps, la signalisation respecte les paramètres d'un feu tricolore classique. Cette signalisation peut être modifiée en fonction des points suivants:
 
-- un capteur de luminosité permet de savoir à quel moment de la journée on se trouve (jour ou nuit). Si il faut jour, alors la signalisation reste "classique", sinon les feux passe tous en orange et clignotent.
+- un capteur de luminosité permet de savoir à quel moment de la journée on se trouve (jour ou nuit). S'il fait jour, alors la signalisation reste "standard", sinon les feux passent tous en orange et clignotent.
 
-- Un capteur infrarouge permet de savoir si un véhicule passe alors que sur sa voie le feu est au rouge. Il permet de faire passer les autres au rouge pour éviter le risque d'accident.
+- un capteur infrarouge permet de savoir si un véhicule passe alors que sur sa voie le feu est au rouge. Si c'est le cas, il permet de faire passer les autres feux au rouge pour éviter le risque d'accident et une led s'allume.
 
 - lors du passage d'un véhicule, un capteur ultrason permet de connaitre sa vitesse. De plus, la vitesse est affichée sur un écran LCD.
 Si le feu est au vert et que le véhicule respecte la limitation de vitesse alors la signalisation reste inchangée. Dans le cas où le véhicule dépasse cette limite, le feu passe au orange puis au rouge pour le faire ralentir. Il est possible de faire cela sans danger puisque la distance entre le capteur et le feu est grande, il faut laisser le temps au conducteur de repérer le feu et donc de ralentir.
 
 - un bouton est à disposition des piétions leur permettant de demander le passage au vert de leur feu et de mettre au rouge les feux qui sont sur leur axe
 
-- un dispositif est aussi disponible pour les non-voyant. En effet, à l'aide d'une télécommande, ils peuvent demander le passage au vert pour qu'il puisse traverser. Ils ont la réponse grâce au son émit par un buzzer. Il y a des sons distincts pour différencier le feu rouge et vert.
+- un dispositif est aussi disponible pour les non-voyants. En effet, à l'aide d'une télécommande, ils peuvent demander le passage au vert pour qu'il puisse traverser. Ils ont la réponse grâce au son émit par un buzzer. Il y a des sons distincts pour différencier le feu rouge et vert.
 
 <h2>Etat de l'art</h2>
 
@@ -40,13 +40,13 @@ En 2015, la société Rapid Flow Technologies s'est séparée de Carnegie Mellon
 
 https://time.com/5502192/smart-traffic-lights-ai/
 
--Durée du voyage Amener les gens à destination 25 % plus vite en éliminant les arrêts, en réduisant le temps d'attente et en augmentant la vitesse de déplacement.
+Amener les gens à destination 25 % plus vite en éliminant les arrêts, en réduisant le temps d'attente et en augmentant la vitesse de déplacement.
 
-Attente Passez plus de 40 % moins de temps à attendre aux carrefours.
+Passer plus de 40 % de temps en moins à attendre aux carrefours.
 
-Arrêts Réduire de 30 à 40 % le nombre d'arrêts, ce qui diminue l'usure de la route et des pneus et se traduit par des économies pour les conducteurs et les villes.
+Arrêts Réduit de 30 à 40 %, ce qui diminue l'usure de la route et des pneus et se traduit par des économies pour les conducteurs et les villes.
 
-Émissions Produire 20 % d'émissions nocives en moins et améliorer la qualité de l'air en réduisant les arrêts et la marche au ralenti.
+20 % d'émissions nocives en moins et améliorer la qualité de l'air en réduisant les arrêts et la marche au ralenti.
 
 https://www.rapidflowtech.com/surtrac
 
@@ -68,14 +68,21 @@ Lorsque nous avons voulu mettre en place la fabrication du projet, nous avons li
 Malheuresement, nous n'avons pas pu le faire ensemble en raison du confinement.
 Pour connaitre l'avancé du projet, nous avons travaillé à l'aide de Discord. C'est Emiliano qui s'est occupé de la fabrication du projet. Faïza s'est chargée de la partie rapport et des diagrammes.
 
+Diagramme d'utilisation
+![Diagramme d'utilisation](https://github.com/institut-galilee/2020-potential-eureka/blob/master/doc/Diagrammes/diagramme_utilisation.png)
+
+
+Diagramme de Gantt
+![Diagramme de Gantt](https://github.com/institut-galilee/2020-potential-eureka/blob/master/doc/Diagrammes/diagramme_gantt.png)
+
 
 <h3>Les composants</h3> 
 
 - arduino UNO
 - câbles
 - breadboards
-- LEDs de couleurs vert, jaune et rouge pour les feux tricolores et bleu et blanc pour les feux pour piétons
-- capteurs (infrarouge, ultrason)
+- LEDs de couleurs vert, jaune et rouge pour les feux tricolores, bleu et blanc pour les feux pour piétons et passage au feu rouge d'une voiture
+- capteurs (infrarouge, ultrason, luminosité)
 - écran LCD
 - bouton
 - télécommandeIR
@@ -89,9 +96,11 @@ Pour connaitre l'avancé du projet, nous avons travaillé à l'aide de Discord. 
 - perceuse et scie sauteuse pour faire les troues
 
 
-Logiciels utilisés
+<h3>Logiciels utilisés</h3>
 
 - Arduino IDE: utilisé pour utiliser l'arduino UNO
 - Tinkercad: utilisé pour la simulation
 
-
+Maquette
+![maquette](https://github.com/institut-galilee/2020-potential-eureka/blob/master/doc/20200420172119.JPG)
+![maquette](https://github.com/institut-galilee/2020-potential-eureka/blob/master/doc/20200420172107.JPG)
