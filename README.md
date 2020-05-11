@@ -73,7 +73,7 @@ Diagramme d'utilisation
 
 
 Diagramme de Gantt
-![Diagramme de Gantt](https://github.com/institut-galilee/2020-potential-eureka/blob/master/doc/Diagrammes/diagramme_gantt.png)
+![Diagramme de Gantt](https://github.com/institut-galilee/2020-potential-eureka/blob/master/doc/Diagrammes/diagram_gantt.png)
 
 
 <h3>Les composants</h3> 
