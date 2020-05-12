@@ -52,7 +52,7 @@ https://www.rapidflowtech.com/surtrac
 
 <h2>Idée de départ</h2> 
 
-L'idée que nous avions au début a plutôt été respéctée. Seuls quelques points non pas pu être réalisés:
+L'idée que nous avions au début a plutôt été respectée. Seuls quelques points non pas pu être réalisés:
 - si un axe est saturé, le faire passer au vert pour le désengorger
 - si on voit que sur un axe il n'y a aucune voiture qui passe ( grâce aux capteurs) alors qu'il est au vert, le faire passer au rouge pour permettre aux autres voitures de circuler
 - afficher le temps restant avant le passage au feu vert pour voitures et/ou piétons
@@ -62,11 +62,11 @@ L'idée que nous avions au début a plutôt été respéctée. Seuls quelques po
 Au départ, nous avons d'abord posé les points essentiels du projet que nous souhaitions réaliser. Au fur et à mesure, nous avions une idée de plus en plus précise de ce que nous voulions faire.
 Nous avons donc séparé le travail en deux:
 Un de nous devait s'occuper de la partie diagrammes, rapport, chercher ce qu'il se faisait déjà et un autre devait commencer à réaliser des simulations à l'aide de Tinkercad.
-Lors des séances de TD, nous mettions en commun ce qui a été fait, donnions notre avis s'il y avait des choses à améliorer et tester à l'aide du kit les modélisations lorsque c'était possible puisqu'il nous manquait des capteurs essentiels à ce projet.
+Lors des séances de TP, nous mettions en commun ce qui a été fait, donnions notre avis s'il y avait des choses à améliorer et testions à l'aide du kit les modélisations lorsque c'était possible puisqu'il nous manquait des capteurs essentiels à ce projet.
 
-Lorsque nous avons voulu mettre en place la fabrication du projet, nous avons listé tous les composants et matériels qu'il nous manquait.
-Malheuresement, nous n'avons pas pu le faire ensemble en raison du confinement.
-Pour connaitre l'avancé du projet, nous avons travaillé à l'aide de Discord. C'est Emiliano qui s'est occupé de la fabrication du projet. Faïza s'est chargée de la partie rapport et des diagrammes.
+Lorsque nous avons voulu mettre en place la fabrication de la maquette, nous avons listé tous les composants et matériels qu'il nous manquait.
+Malheureusement, nous n'avons pas pu le faire ensemble en raison du confinement.
+Pour connaitre l'avancé du projet, nous avons travaillé à l'aide de Discord. C'est Emiliano qui s'est occupé de la maquette. Faïza s'est chargée de la partie rapport et des diagrammes.
 
 Diagramme d'utilisation
 ![Diagramme d'utilisation](https://github.com/institut-galilee/2020-potential-eureka/blob/master/doc/Diagrammes/diagramme_utilisation.png)
