@@ -1,5 +1,7 @@
 # Projet carrefour de feux tricolores
 
+Projet réalisé par Faïza Berhili et Emiliano Boussac.
+
 <h2>Description du projet</h2>
 
 Nous avons choisi de réaliser un carrefour de feux tricolores connecté.
