@@ -11,7 +11,7 @@ Comme indiqué dans le diagramme de Gantt, de nombreuses tâches ont été réal
 
 - Réflexion sur la mise en forme de la maquette. Malheureusement, le confinement ne m’a pas permis de participer davantage, notamment pour la conception de la maquette, puisque nous allions à ce moment là commander les composants manquants.
 
-- Réalisation des [diagrammes](https://github.com/institut-galilee/2020-potential-eureka/tree/master/doc/Diagrammes), la rédaction du [rapport]() et du [readme.md]([ici](https://github.com/institut-galilee/2020-potential-eureka) comme je ne pouvais pas travailler de chez moi avec les composants à ma disposition.
+- Réalisation des [diagrammes](https://github.com/institut-galilee/2020-potential-eureka/tree/master/doc/Diagrammes), la rédaction du [rapport](https://github.com/institut-galilee/2020-potential-eureka/blob/master/doc/report.pdf) et du [readme.md]([ici](https://github.com/institut-galilee/2020-potential-eureka) comme je ne pouvais pas travailler de chez moi avec les composants à ma disposition.
 
 <h1>Les acquis</h1>
 
