@@ -1,7 +1,7 @@
 # Projet carrefour de feux tricolores
 
 Projet réalisé par Faïza Berhili et Emiliano Boussac.
-Vous pouvez trouver la vidéo [ici](https://youtu.be/36WNWxsm3vQ).
+Vous pouvez trouver la vidéo de la présentation de la maquette [ici](https://youtu.be/36WNWxsm3vQ).
 
 <h2>Description du projet</h2>
 
