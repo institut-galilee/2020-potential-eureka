@@ -1,17 +1,15 @@
 {
   "id": "left blank",
-  "title": "Guessless Project",
+  "title": "potential eureka",
   "links": {
 	  "PDF": "",
 	  "Slides": "",
-	  "Video": "Eu7Z_zg069Q",
+	  "Video": "",
 	  "Code": ""
   },
   "tags": ["ml", "ai"],
   "authors": [
-    "Foo Bar",
-    "Freddy Mercury",
-    "Donald Trump",
-    "Peter Schmeichel"
+    "Emiliano Boussac",
+    "Faïzha Berhili"
   ]
 }
